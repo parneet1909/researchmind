@@ -42,7 +42,7 @@ def render_auth_page():
 
     /* AUTH PAGE */
 
-    .auth-container {
+.auth-container {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -112,20 +112,18 @@ def render_auth_page():
 
     # AUTH CARD START
 
+    st.markdown('<div class="auth-container">', unsafe_allow_html=True)
+
     st.markdown("""
-    <div class="auth-container">
+    <div class="auth-card">
 
-        <div class="auth-card">
+    <div class="auth-title">
+        Research<span>Mind</span>
+    </div>
 
-            <div class="auth-title">
-                Research<span>Mind</span>
-            </div>
-
-            <div class="auth-sub">
-                Multi-Agent AI platform for deep research,
-                intelligent analysis, and PDF conversations.
-            </div>
-
+    <div class="auth-sub">
+        AI-powered research, analysis & PDF conversations
+    </div>
     """, unsafe_allow_html=True)
 
     auth_mode = st.radio(
