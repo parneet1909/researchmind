@@ -1,0 +1,55 @@
+# Streamlit
+streamlit==1.37.1
+
+# LangChain ecosystem (stable compatible versions)
+langchain==0.2.16
+langchain-core==0.2.38
+langchain-community==0.2.16
+langchain-text-splitters==0.2.4
+
+# Mistral
+langchain-mistralai==0.1.12
+
+# Vector DB
+faiss-cpu==1.8.0.post1
+#chromadb==0.5.5
+
+# Embeddings
+sentence-transformers==3.0.1
+langchain-huggingface==0.0.3
+transformers==4.44.2
+torch>=2.2.0
+
+# PDF
+pypdf==4.3.1
+
+# Tavily
+tavily-python==0.4.0
+
+# Web scraping
+beautifulsoup4==4.12.3
+requests==2.32.3
+lxml==5.2.2
+html5lib==1.1
+
+# Env variables
+python-dotenv==1.0.1
+
+# Async
+aiohttp==3.10.5
+
+# Data
+pandas==2.2.2
+
+# Tokenizer
+tiktoken==0.7.0
+
+# Utility
+rich==13.8.0
+tenacity==8.5.0
+orjson==3.10.7
+
+# IMPORTANT
+pydantic==2.8.
+
+supabase==2.7.4
